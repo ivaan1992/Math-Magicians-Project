@@ -7,24 +7,12 @@ class Calculator extends Component {
   }
 
   render() {
-      return(
-          <div class="Calculator">
+      return (
+          <div className="Calculator">
              <h1>Hello world</h1>>
           </div>
-      )
+      );
   }
 } 
 
-
-
-
-
-
-
-
-
-
-
-
-export default Calculator;;
-
+export default Calculator;

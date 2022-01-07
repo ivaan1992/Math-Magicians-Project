@@ -17,7 +17,7 @@ export default function calculate(obj, buttonName) {
     if (buttonName === '0' && obj.next === '0') {
       return {};
     }
-  
+
     if (obj.operation) {
       if (obj.next) {
         return { ...obj, next: obj.next + buttonName };

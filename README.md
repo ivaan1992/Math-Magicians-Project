@@ -3,8 +3,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-
-![screenshot](https://user-images.githubusercontent.com/73128809/148595336-28ba2f65-09b7-4d2c-b8f4-078d1fec94fe.png)
+## Screenshot
+![screenshot](https://user-images.githubusercontent.com/73128809/149580793-31f08720-32ae-4d23-9358-c9601f9f35e5.png)
+![Captura de pantalla de 2022-01-14 14-27-00](https://user-images.githubusercontent.com/73128809/149580856-f800003d-3c33-43e8-9769-e86e3eb773d1.png)
+![Captura de pantalla de 2022-01-14 14-27-03](https://user-images.githubusercontent.com/73128809/149580972-b249c577-a41c-4ab1-9ff5-dba5a97043d5.png)
 
 
 The purpose of this project is start getting familiar with React. 

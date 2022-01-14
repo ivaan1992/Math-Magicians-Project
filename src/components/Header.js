@@ -3,17 +3,17 @@ import { Link } from 'react-router-dom';
 
 const Header = () => (
   <header>
-    <Link to="/">Math Magicians</Link>
+    <Link to="/" className="text-link">Math Magicians</Link>
     <nav>
-      <ul>
+      <ul className="links">
         <li>
-          <Link to="/Quote">Quote</Link>
+          <Link to="/" className="text-link">Home</Link>
         </li>
         <li>
-          <Link to="/Calculator">Calculator</Link>
+          <Link to="/Calculator" className="text-link">Calculator</Link>
         </li>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/Quote" className="text-link">Quote</Link>
         </li>
       </ul>
     </nav>

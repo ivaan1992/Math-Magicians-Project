@@ -2,8 +2,9 @@ import React from 'react';
 
 const Home = () => (
   <section>
-    <h1>Welcome to our page!</h1>
-    <p>
+    <h1 className="page-title">Welcome to our page!</h1>
+    <br />
+    <p className="paragraph">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati blanditiis
       incidunt quam repudiandae!
       Ex, dignissimos soluta. Voluptas deleniti laudantium veritatis eveniet itaque
@@ -28,7 +29,8 @@ const Home = () => (
       Similique labore officia tempora
       reprehenderit ea.
     </p>
-    <p>
+    <br />
+    <p className="paragraph">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati blanditiis
       incidunt quam repudiandae!
       Ex, dignissimos soluta. Voluptas deleniti laudantium veritatis eveniet itaque

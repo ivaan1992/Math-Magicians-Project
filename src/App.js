@@ -1,20 +1,22 @@
 import React from 'react';
-import Calculator from './components/Calculator';
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
+import Header from './components/Header';
+import Quote from './components/Quote';
+import Calculator from './components/Calculator';
+import Home from './components/Home';
 
-class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-
-  render() {
-    return (
-      <div id="App">
-        <Calculator />
-      </div>
-    );
-  }
+function App() {
+  return (
+    <div className="App">
+      <Header />
+      <Routes>
+        <Route path="/Quote" element={<Quote />} />
+        <Route path="/Calculator" element={<Calculator />} />
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </div>
+  );
 }
 
 export default App;
